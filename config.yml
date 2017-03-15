@@ -1,0 +1,62 @@
+########################################
+##									  ##
+##         SKYBASERS CONFIG			  ##
+## 									  ##
+##           by Joe Shuff             ##
+##									  ##
+########################################
+
+##Min players is how many players are
+##required for the game to start
+min-players : 2
+
+##Maximum amount of players that can play
+max-players : 12
+
+##This is the server name for the 'hub'
+hub : extra
+
+##Teams : 0 = Solo, 1 = Teams
+teams : 0
+
+##Amount of seconds until the game starts
+##when the minimum amount of players
+##has been met
+start-time : 60
+
+##This is the amount of minutes long the game
+##will be
+game-time : 10
+
+##Mode : 0 = Normal, 1 = Judgement 
+mode : 1
+
+##Kits : 0 = Disabled, 1 = Enabled
+kits : 1
+
+##map-amount : the amount of maps that are stored in the
+##maps folder
+map-amount : 5
+
+##This is the centre of the arena and the name
+##of the world the arena is in, shouldn't need
+##to be changed
+mapCentreX : 1000
+mapCentreY : 90
+mapCentreZ : 1000
+world : skybasersFinal
+
+##This is the centre of the hub
+hubCentreX : 0
+hubCentreY : 23
+hubCentreZ : 0
+
+##The amount of time in minutes until a draw occurs
+##after all the lava has risen and doom has occured
+game-over-time : 5
+
+##This controls how many JusticeCoins get given to players
+##For completing things (kills, win, playing)
+play-reward : 1
+kill-reward : 5
+win-reward : 10

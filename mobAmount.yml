@@ -1,0 +1,66 @@
+#########################################
+##     CONFIG FILE FOR CONTROLLING     ##
+##       AMOUNT OF MOBS PER GAME       ##
+#########################################
+
+##The value 'max' will store the maximum
+##amount of that mob allowed in the game
+
+##The value 'radius' will store the minimum
+##distance a mob must be away from another
+##mob of its type to successfully spawn
+
+##This part will initalise all mob types it
+##will test, if a mob is not in this part, its
+##spawning will not be restricted
+mobs :
+ - creeper
+ - zombie
+ - skeleton
+ - witch
+ - enderman
+ - spider
+
+##This section controls maximum amount of
+##mobs in NORMAL mode
+normal :
+ creeper :
+  max : 5
+  radius : 20
+ zombie :
+  max : 10
+  radius : 20
+ skeleton :
+  max : 5
+  radius : 20
+ witch :
+  max : 1
+  radius : 30
+ enderman :
+  max : 2
+  radius : 20
+ spider : 
+  max : 5
+  radius : 10
+  
+##This section controls maximum amount of
+##mobs in JUDGEMENT mode
+judgement :
+ creeper :
+  max : 10
+  radius : 15
+ zombie :
+  max : 15
+  radius : 10
+ skeleton :
+  max : 10
+  radius : 15
+ witch :
+  max : 5
+  radius : 20
+ enderman :
+  max : 5
+  radius : 15
+ spider :
+  max : 10
+  radius : 10

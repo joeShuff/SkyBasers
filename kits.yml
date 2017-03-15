@@ -1,0 +1,51 @@
+#############################
+##       KITS CONFIG       ##
+#############################
+
+##Define the name of each kit here
+kits : 
+ - Default
+ - Builder
+ - Archer
+ 
+##Here you set what each kit gets
+##store the items in this format '- itemID,damage,count'
+##DisplayList is the list that the item Lore will say this kit comes with
+##DisplayItem is the item that will represent this kit
+##Items is the list of items the kit will give
+##DefaultUnlocked is whether or not the kit is unlocked by default
+##LevelBuyable is the rank the player must be (at least) to buy the kit
+##Cost is the cost of the kit in Justice Coins
+
+Default :
+ DisplayList :
+    - 5 Steak
+ DisplayItem : wood_sword,0,1
+ Items :
+    - cooked_beef,0,5
+ DefaultUnlocked : true
+ Level : N/A
+ Cost : N/A
+ 
+Builder :
+ DisplayList :
+   - 1 Stone Pickaxe
+   - 25 Cobblestone
+ DisplayItem : stone_pickaxe,0,1
+ Items :
+   - cobblestone,0,25
+   - stone_pickaxe,0,1
+ DefaultUnlocked : false
+ Level : N/A
+ Cost : 50
+ 
+Archer :
+ DisplayList :
+   - 1 Weak Bow
+ DisplayItem : bow,0,1
+ Items :
+   - bow,380,1
+ DefaultUnlocked : false
+ Level : N/A
+ Cost : 500
+ 

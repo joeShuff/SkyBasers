@@ -1,0 +1,31 @@
+name: SkyBasers
+main: me.JoeShuff.SkyBasers.SkyBasers
+version: 1.0
+commands :
+   team:
+      description: Teams
+      usage: /<command>
+   start:
+      description: Force start
+      usage: /<command>
+   tchat:
+      description: Change to the team channel
+      usage: /<command>
+   gchat:
+      description: Change to the global channel
+      usage: /<command>
+   editmode:
+      description: Edit the gamemode 
+      usage: /<command>
+   groups:
+      description: Control permission groups 
+      usage: /<command>
+   sbjoin:
+      description: Used to join games
+      usage: /<command>
+   rules:
+      description: See the rules of the game
+      usage: /<command>
+   leave:
+      description: Leave the game
+      usage: /<command>

@@ -1,0 +1,31 @@
+#There are 2 steps to successfully adding a group
+#FIRST, add the group name to the list below 
+
+groups :
+   - DefaultGroup
+   - Owners
+   
+#SECONDLY, the group needs it own config, copy this example without the '#'
+
+#TestGroup1 :
+#   permissions : 
+#      - perm.test.1
+#      - perm.game.TP
+#   players :
+#      - Player1
+#      - Player2
+
+#Write your own groups config below this line!
+DefaultGroup :
+   permissions :
+   players :
+      - #ALL
+Owners :
+   permissions :
+      - skybasers.Break
+      - skybasers.Place
+      - skybasers.OP
+   players :
+      - Dractus
+      - OmegaGamer777
+      - saxon564
